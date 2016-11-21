@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# OLED_i2c_Display_0.99inch
+#
+DEF OLED_i2c_Display_0.99inch DISP 0 40 Y Y 1 F N
+F0 "DISP" 400 -400 60 H V C CNN
+F1 "OLED_i2c_Display_0.99inch" 600 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 200 -350 750 50 0 1 0 N
+X SDA 1 0 0 200 R 50 50 1 1 I
+X SCL 2 0 -100 200 R 50 50 1 1 I
+X GND 3 0 -200 200 R 50 50 1 1 I
+X VCC 4 0 -300 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
